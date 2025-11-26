@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Jean B. Bonan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Pink Theme Styling */
+        body {
+            background-color: #fff0f6; /* Very light pink background */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #ff99c8; /* Soft pink */
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav .nav-links a:hover {
+            color: #ffe0ef;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #ffb3d9, #ff80bf); /* Pink gradient */
+            padding: 60px 0;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #ffe6f2; /* Soft white-pink */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff66a3; /* Vibrant pink */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #ff4d94;
+        }
+
+        /* Section Titles */
+        h2 {
+            text-align: center;
+            color: #cc2e76;
+            margin-top: 40px;
+        }
+
+        /* Projects */
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .project {
+            background-color: #ffe6f2;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            color: #d63384;
+        }
+
+        .project a {
+            color: #ff4da6;
+            font-weight: bold;
+        }
+
+        /* Skills */
+        .skills-container {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .skill {
+            background-color: #ffd6e8;
+            padding: 12px;
+            border-radius: 8px;
+            color: #b3005a;
+            font-weight: bold;
+        }
+
+        /* Contact */
+        #contact a {
+            color: #ff4da6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff99c8;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"> ROSE JEAN </div>
+        <ul class="nav-links">
+            
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+   <header id="about">
+    <h1>Hello, I am Rose Jean B. Bonan</h1>
+
+    <!-- Profile Picture with Pink Border -->
+    <img src="profile.jpg" alt="Rose Jean B. Bonan" 
+         style="width:180px; border-radius:50%; margin-top:20px;
+                border:5px solid #ff99c8; 
+                box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+
+    <p>IT Student | Web Developer | Aspiring Front-End Developer|Canva Editor</p>
+    <a href="#projects" class="btn">See My Work</a>
+</header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                
+                <h3>Stress Management Webpage</h3>
+                <p>This page focuses on practical, effective stress-management methods that promote calm, clarity, and resilience. Apply the techniques provided to support your well-being and strengthen your ability to handle daily challenges.
+                   <br><a href="https://ffctvstrssmngmnt.simdif.com/" target="_blank">Visit Project</a>
+                </p>
+            </div>
+
+            <div class="project">
+ 
+                <h3>Portfolio Website</h3>
+                <p>An HTML-based portfolio website project that give details about me and showcasing my skills and work.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">• Time management skill</div>
+            <div class="skill">• Communication Skill</div>
+            <div class="skill">• Web Development</div>
+            <div class="skill">• Know the basic of Excel</div>
+            <div class="skill">• Computer Skill</div>
+            <div class="skill">• Canva User</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:rosejeanbonan1234@gmail.com">rosejeanbonan1234@gmail.com</a></p>
+        <p>Facebook: <a href="#">Rōzu Jīn</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Rose Jean B. Bonan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
